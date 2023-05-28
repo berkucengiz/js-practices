@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{  background-color:rgb(198, 226, 255) ;
+
+}
+.container{
+    position: relative;
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.container > h1{
+    text-align: center;
+    color: white;
+}
+
+.timer-box{
+    background-color: rgb(28, 137, 253);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    justify-content: center;
+    color: white;
+    border: 3px solid white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.btn-info{
+    color: white;
+}
