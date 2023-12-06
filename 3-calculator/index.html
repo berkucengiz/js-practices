@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hesap Makinesi</title>
-    <link rel="stylesheet" href="css/style-3.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="calculator">
@@ -17,14 +17,14 @@
         <button onclick="calculate('7')">7</button>
         <button onclick="calculate('8')">8</button>
         <button onclick="calculate('9')">9</button>
-        <button onclick="calculate('+')" value="+">+</button>
+        <button class="operator" onclick="calculate('+')" value="+">+</button>
       </div>
 
       <div class="row">
         <button onclick="calculate('4')">4</button>
         <button onclick="calculate('5')">5</button>
         <button onclick="calculate('6')">6</button>
-        <button onclick="calculate('-')" value="-">-</button>
+        <button class="operator" onclick="calculate('-')" value="-">-</button>
       </div>
 
       <div class="row">
@@ -51,6 +51,6 @@
         </button>
       </div>
     </div>
-    <script src="js/app-3.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
