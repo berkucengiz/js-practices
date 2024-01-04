@@ -17,6 +17,7 @@
   background-color: rgb(255, 157, 0);
   border: 2px solid black;
   padding: 7px 10px;
-
-
+}
+.container{
+  display: flex;
 }

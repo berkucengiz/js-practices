@@ -58,7 +58,6 @@ const rowIndex = () => {
       .forEach((col, i) => (col.innerHTML = i + 1))
   }
   
-  
   const actionDelete = (row) => {
     row.querySelector("#btnDelete").addEventListener("click", () => {
       const name = row.querySelector("td:nth-child(2)").innerText

@@ -22,10 +22,23 @@
   </head>
   <body>
     <div class="container p-5">
-      <input type="text" class="txt-input" id="txtName" />
-      <input type="date" class="date-input" id="datePoint" />
-      <input type="date" class="last-date-input" id="lastDatePoint" />
-      <button type="submit" class="btn-add" id="btnAdd">+ Add</button>
+      <div>
+        <input type="text" class="txt-input" id="txtName" />
+        <input type="date" class="date-input" id="datePoint" />
+        <input type="date" class="last-date-input" id="lastDatePoint" />
+        <button type="submit" class="btn-add" id="btnAdd">Ekle</button>
+      </div>
+      <div>
+        <input type="text" class="search-input" id="serachInput">
+        <button type="submit" class="btn-search" id="btnSearch">Ara</button>
+      </div>
+      <div>
+        <button type="button" class="btn btn-primary" id="btnSort">Sırala-artan</button>
+        <button type="button" class="btn btn-success" id="btnReverse">Sırala-azalan</button>
+      </div>
+      
+
+
       
 
       <table
@@ -40,7 +53,6 @@
             <th>son kullanma tarih</th>
             <th>kalan gün</th>
         
-       
           </tr>
         </thead>
         <tbody id="tbody"></tbody>
